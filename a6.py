@@ -26,7 +26,7 @@ class BayesClassifier:
         self.neg_freqs: Dict[str, int] = {}
         self.pos_filename: str = "pos.dat"
         self.neg_filename: str = "neg.dat"
-        self.training_data_directory: str = "movie_reviews/"
+        self.training_data_directory: str = "movie_reviews/movie_reviews/"
         self.neg_file_prefix: str = "movies-1"
         self.pos_file_prefix: str = "movies-5"
 
